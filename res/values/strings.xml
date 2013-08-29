@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">PhoneNumLocation</string>
+    <string name="input_prompt">Please input phone number</string>
+    <string name="btn_query">Query</string>
+    <string name="btn_clear">Clear</string>
+    <string name="location_prompt">Location:</string>
+    <string name="unknown">unknown</string>
+    
+    <!-- TY:zhaolong add on 20110118 for the db updating func begin. -->
+    <string name="btn_update">Update</string>
+    <string name="no_need_update">No need to update: latest version.</string>
+    <string name="update_success">Update Success</string>
+    <string name="update_failed">Update Failed</string>
+    <string name="ok">ok</string>
+    <string name="updating">Updating...</string>
+    <!-- TY:zhaolong add on 20110118 for the db updating func end. -->
+</resources>

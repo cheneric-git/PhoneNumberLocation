@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">"号码归属地"</string>
+    <string name="input_prompt">"请输入电话号码"</string>
+    <string name="btn_query">"查询"</string>
+    <string name="btn_clear">"清空"</string>
+    <string name="location_prompt">"归属地"</string>
+    <string name="unknown">"未知地区"</string>
+    
+    <!-- TY:zhaolong add on 20110118 for the db updating func begin. -->
+    <string name="btn_update">更新</string>
+    <string name="no_need_update">数据库已为最新版本</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_failed">更新失败</string>
+    <string name="ok">确定</string>
+    <string name="updating">正在更新...</string>
+    <!-- TY:zhaolong add on 20110118 for the db updating func end. -->
+</resources>

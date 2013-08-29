@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TY:maqing 20101020 modify for BugNO -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ty_numlocation_bg" >
+	
+    <TextView android:id="@+id/TextViewInputPrompt"
+        android:layout_width="match_parent" 
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="13dp"
+		    android:gravity="center_horizontal"
+		    android:text="@string/input_prompt" 
+		    android:textAppearance="?android:attr/textAppearanceLarge" />	
+	
+    <EditText android:id="@+id/EditTextPhoneNum" 
+        android:maxLines="1"
+        android:editable="true" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:numeric="integer" 
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout android:id="@+id/LinearLayoutCmd"
+        android:orientation="horizontal" 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="54dp"
+        android:layout_marginRight="54dp"
+        >
+		
+        <Button android:id="@+id/BtnQuery" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:text="@string/btn_query" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+		 <!-- TY:zhaolong delete on 20110118 for the db updating func.-->
+        <Button android:id="@+id/BtnClear" 
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/btn_clear" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+            
+        <!--  tianyu liushan 20110328 delete start -->
+        <!-- TY:zhaolong add on 20110118 for the db updating func begin.-->
+        <!-- 
+        <Button android:id="@+id/BtnUpdate" 
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="24dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/btn_update" 
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        --> 
+        <!-- TY:zhaolong add on 20110118 for the db updating func end.-->
+        <!--  tianyu liushan 20110328 delete end -->
+            			
+    </LinearLayout>
+
+    <TextView android:id="@+id/TextViewLocationPrompt"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/location_prompt" 
+        android:gravity="center_horizontal"
+        android:textColor="#64A0E1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView android:id="@+id/TextViewResultPrompt"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:textColor="#ffffff"
+        android:textSize="35sp" />
+        
+</LinearLayout>

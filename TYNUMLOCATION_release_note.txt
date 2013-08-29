@@ -1,0 +1,27 @@
+======================================
+Notes
+======================================
+PROD100310206  号码归属地界面无法横屏显示
+
+******************
+升级需要格式化
+是否使用“矢量字库”：是
+是否使用“矢量字库license激活”：是
+是否有替代料更新：否
+******************
+======================================
+Location
+======================================
+FTP://10.10.1.21/TYAPPSGB/TYNUMLOCATION_R&D_Release/TYNUMLOCATION_common_V1014.zip
+
+======================================
+Software Version Configuration
+======================================
+
+
+======================================
+CR List
+======================================
+PROD100229236 BuildAct TYAPPSGB/stm_gbtyapps_tynumlocation_int- Modify version file and release note (This is a reserved activity)   
+PROD100310206 TBW5917 号码归属地界面无法横屏显示   
+

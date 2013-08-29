@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+    <string name="app_name">"號碼歸屬地"</string>
+    <string name="input_prompt">"請輸入電話號碼"</string>
+    <string name="btn_query">"查詢"</string>
+    <string name="btn_clear">"清空"</string>
+    <string name="location_prompt">"歸屬地"</string>
+    <string name="unknown">"未知地區"</string>
+    
+    <string name="btn_update">更新</string>
+    <string name="no_need_update">數據庫已為最新版本</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_failed">更新失敗</string>
+    <string name="ok">確定</string>
+    <string name="updating">正在更新...</string>
+</resources>
